@@ -5,9 +5,6 @@ This project aims to analyze the reation of the general public to the AI-driven 
 Comments are classified using Groq API to compare public perception with company narrative
 
 ## Features
--X
- -Z
-
 1. Automatically fetch comments from youtube using keywords
 2. Classify comments into cathegories: Fear of precarity; Ethical concerns; Quality concerns
 3. Identify tone: Critical, Neutral; Supportive
