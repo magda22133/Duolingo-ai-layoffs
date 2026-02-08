@@ -5,8 +5,8 @@ from groq import Groq
 from googleapiclient.discovery import build
 
 # ---------------- CONFIG ----------------
-YOUTUBE_API_KEY = "YOUTUBE_API_KEY"
-GROQ_API_KEY = "GROQ_API_KEY"
+YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY")
+GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
 
 KEYWORDS = ["Duolingo AI layoffs"]
 TARGET_COMMENTS = 200

@@ -3,7 +3,7 @@ import pandas as pd
 from googleapiclient.discovery import build
 
 # --- CONFIG ---
-YOUTUBE_API_KEY = "***REMOVED***"  # <-- put your key here
+YOUTUBE_API_KEY = "AIzaSyCI1fmx69gFO-veohZc2PqCS0gAyqAt6Ic"  # <-- put your key here
 KEYWORDS = ["Duolingo AI layoffs"]        # <-- list your keywords here
 MAX_VIDEOS = 5                            # how many videos per keyword
 MAX_COMMENTS = 50                         # comments per video

@@ -4,7 +4,7 @@ import re
 from groq import Groq
 
 # --- Initialize client ---
-client = Groq(api_key="GROQ_API_KEY")  # <-- put your actual key
+client = Groq(api_key= os.environ.get("GROQ_API_KEY")  # <-- put your actual key
 
 # --- System prompt for classification ---
 SYSTEM_PROMPT = """
